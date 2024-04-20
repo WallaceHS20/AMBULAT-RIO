@@ -37,6 +37,13 @@ cd .\dotlib\
 npm install
 ~~~~
 
+## Inicie JSON Server
+~~~~git
+npm install -g json-server
+
+json-server api/dotlib.json -s ./api/public
+~~~~
+
 ### Inicie o App
 ~~~node
 npm run start
